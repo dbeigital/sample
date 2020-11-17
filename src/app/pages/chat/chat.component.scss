@@ -1,0 +1,41 @@
+.container {
+  background: #252329;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  font-family: "FibraOne-Regular";
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+
+.messages {
+  padding: 0 3rem;
+  display: grid;
+  grid-template-rows: 90px 1fr 90px;
+
+  .body {
+    // background: blue;
+  }
+}
+.message {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  // background: rgba($color: #fff, $alpha: 0.1);
+  .name {
+    color: #6ab04c;
+  }
+  .text {
+    color: rgba($color: #fff, $alpha: 0.55);
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+.avatar {
+  padding-right: 1.5rem;
+}
+img {
+  height: 44px;
+  border-radius: 6px;
+}
